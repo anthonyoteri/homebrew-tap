@@ -18,9 +18,9 @@ A validator for [structprop](https://github.com/anthonyoteri/serde-structprop) c
 brew install anthonyoteri/tap/structprop-validator
 ```
 
-**Platforms:** macOS (Apple Silicon)
+**Platforms:** macOS (Apple Silicon), Linux (x86_64)
 
-For Linux and Windows, download the binary directly from the
+For Windows, download the binary directly from the
 [releases page](https://github.com/anthonyoteri/serde-structprop/releases),
 or install via `cargo`:
 

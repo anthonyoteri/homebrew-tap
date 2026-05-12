@@ -11,6 +11,13 @@ class StructpropValidator < Formula
     end
   end
 
+  on_linux do
+    on_intel do
+      url "https://github.com/anthonyoteri/serde-structprop/releases/download/v#{version}/structprop-validator-linux-x86_64.tar.gz"
+      sha256 "70d722f68cc1a1ac26676f309de2a7796976856070a610ee2f4fc31760892808"
+    end
+  end
+
   def install
     bin.install "structprop-validator"
   end

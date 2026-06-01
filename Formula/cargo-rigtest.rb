@@ -1,28 +1,28 @@
 class CargoRigtest < Formula
   desc "Cargo subcommand for acceptance/integration testing with rigtest"
   homepage "https://github.com/anthonyoteri/cargo-rigtest"
-  version "0.1.0"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/anthonyoteri/cargo-rigtest/releases/download/v#{version}/cargo-rigtest-macos-aarch64.tar.gz"
-      sha256 "fafe2b0f9157ea62a6e53a7a72ee1cf91894b990398ca6ea30a083d5972b9e0e"
+      sha256 "c1d5872fc7ea904e4e553d2700596775b02340c40b4591f0e13bd751b60637ea"
     end
     on_intel do
       url "https://github.com/anthonyoteri/cargo-rigtest/releases/download/v#{version}/cargo-rigtest-macos-x86_64.tar.gz"
-      sha256 "5b95d30930f58b808e4b632ee0afe77fe73eb1e0540ab1bde1c822be644575df"
+      sha256 "b5cb79e39649517f2577861330f189ae540de4d138a839c8421d2075af81463b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/anthonyoteri/cargo-rigtest/releases/download/v#{version}/cargo-rigtest-linux-x86_64.tar.gz"
-      sha256 "3c1f6d12f108231c6ead8cc1ca3051e9debc53b6d9dca546adb229af188410e7"
+      sha256 "515d5d834cf26a4a9c61730d6185b18d4e3423891f8b8401d829fe6b82467778"
     end
     on_arm do
       url "https://github.com/anthonyoteri/cargo-rigtest/releases/download/v#{version}/cargo-rigtest-linux-aarch64.tar.gz"
-      sha256 "c5db147ee076d8ffa0941ae49acd0bdb37a310e6b3549b8f119e789730898d7e"
+      sha256 "9fb26923229b6f3d9fb1c4a697ff1419fa2e670978064a7f5849c5fafe3d693d"
     end
   end
 
